@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">myFirst Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="name">Enter Your Name</string>
+    <string name="nameText">Md. kamel Morshed Hridoy</string>
+    <string name="designation">Enter Your designation</string>
+    <string name="designationText">Sr.Software Engineer</string>
+    <string name="degree">Enter Your Degree</string>
+    <string name="degreeText">B.Sc in CSE</string>
+    <string name="phone">Enter Phone No</string>
+    <string name="phoneText">+880 1732774147</string>
+    <string name="email">Enter Your Email</string>
+    <string name="emailText">hridoy@asitsl.com</string>
+    <string name="company">Enter Organization Name</string>
+    <string name="companyText">ADVANCED SOFTWARE &amp; IT SERVICES LTD. </string>
+    <string name="services">Enter Org. Services</string>
+    <string name="servicesText">System Advisors, Software Development &amp; ICT Consultants</string>
+    <string name="telephone">Enter Office Tel No </string>
+    <string name="telephoneText">+880 2-48040622</string>
+    <string name="oEmail">Enter Office email</string>
+    <string name="oEmailText">info@asitsl.com</string>
+    <string name="Address">Enter Office Address</string>
+    <string name="AddressText">House # 28/3, Road # 4 \n Block # D, Arambag \n Mirpur # 07, Dhaka-1216</string>
+
+
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

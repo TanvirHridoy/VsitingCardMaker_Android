@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="false"
+       android:layout_marginLeft="105dp"
+       android:text="Dynamic Visiting Card"
+       android:textColor="@color/black"
+       android:textSize="20sp"
+       android:textStyle="bold"></TextView>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_style"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        android:hint="@string/name"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/bootstrap_gray_dark"></EditText>
+
+    <EditText
+        android:id="@+id/Designation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/name"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_style"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        android:hint="@string/designation"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/bootstrap_gray_dark">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/Degree"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/Designation"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_style"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        android:hint="@string/degree"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/bootstrap_gray_dark">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/Degree"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_style"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        android:hint="@string/phone"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/bootstrap_gray_dark"></EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/Phone"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_style"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        android:hint="@string/email"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/bootstrap_gray_dark"></EditText>
+
+    <EditText
+        android:id="@+id/Company"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/email"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_style"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        android:hint="@string/company"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/bootstrap_gray_dark">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/Services"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/Company"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_style"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        android:hint="@string/services"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/bootstrap_gray_dark">
+
+    </EditText>
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/Services"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_style"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        android:hint="@string/Address"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="6"
+        android:textColorHint="@color/bootstrap_gray_dark"></EditText>
+
+
+    <EditText
+        android:layout_below="@id/address"
+        android:layout_width="match_parent"
+        android:id="@+id/oEmail"
+        android:textColor="@color/black"
+        android:textColorHint="@color/bootstrap_gray_dark"
+        android:background="@drawable/et_style"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        android:hint="@string/oEmail"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+        android:padding="10dp">
+    </EditText>
+
+    <EditText
+        android:layout_below="@id/oEmail"
+        android:layout_width="match_parent"
+        android:id="@+id/telephone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/bootstrap_gray_dark"
+        android:background="@drawable/et_style"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        android:hint="@string/telephone"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+        android:padding="10dp">
+    </EditText>
+    <Button
+        android:layout_below="@+id/telephone"
+        android:layout_alignParentEnd="true"
+        android:text="Submit"
+        android:shadowColor="@color/black"
+        android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/SubmitBtn"
+        />
+
+
+</RelativeLayout>
+</ScrollView>
